@@ -2,10 +2,10 @@
 
 Self-built, opinionated skills for AI coding agents — a TDD feature workflow, a Socratic design interviewer, and a three-lens CV reviewer.
 
-[![Validate Skills](https://github.com/eikrad/Eike-Skills-/actions/workflows/validate-skills.yml/badge.svg)](https://github.com/eikrad/Eike-Skills-/actions/workflows/validate-skills.yml)
+[![Validate Skills](https://github.com/eikrad/Eike-Skills/actions/workflows/validate-skills.yml/badge.svg)](https://github.com/eikrad/Eike-Skills/actions/workflows/validate-skills.yml)
 [![Skills](https://img.shields.io/badge/skills-3-3d8c40)](#the-skills)
 [![License](https://img.shields.io/badge/license-Apache_2.0-blue)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/eikrad/Eike-Skills-)](https://github.com/eikrad/Eike-Skills-/commits)
+[![Last commit](https://img.shields.io/github/last-commit/eikrad/Eike-Skills)](https://github.com/eikrad/Eike-Skills/commits)
 
 A **skill** is a folder with a `SKILL.md` inside: YAML frontmatter that tells an agent *when* to reach for it, and Markdown that tells it *how* to do the work. Nothing is compiled, nothing is installed — it is plain text an agent reads at the moment it becomes relevant.
 
@@ -46,7 +46,7 @@ Skills are just directories. Put them where your agent looks for them.
 **Claude Code — all projects**
 
 ```bash
-git clone https://github.com/eikrad/Eike-Skills-.git /tmp/eike-skills
+git clone https://github.com/eikrad/Eike-Skills.git /tmp/eike-skills
 cp -r /tmp/eike-skills/skills/* ~/.claude/skills/
 ```
 
