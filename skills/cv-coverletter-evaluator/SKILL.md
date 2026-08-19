@@ -51,8 +51,8 @@ Run each independently. The value is that different lenses catch different thing
 
 ### Perspective A — Hiring manager
 
-Read as a busy hiring manager: 30 seconds for the cover letter, 60 for the CV, then decide interview / pass / maybe.
-
+Read as a busy hiring manager from the respective company: 30 seconds for the cover letter, 60 for the CV, then decide interview / pass / maybe.
+- Can I understand what he claims to have achieved?
 - Does the opening sentence make me want to keep reading, or could it have been written about anyone?
 - In the first 5 seconds of the CV, can I tell what this person does and what level they're at?
 - Are achievements concrete and quantified, or vague ("responsible for", "involved in", "helped with")?
