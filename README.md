@@ -61,25 +61,6 @@ cp -r /tmp/eike-skills/skills/feature-workflow .claude/skills/
 
 Restart your agent session afterwards so the new skills are picked up, then confirm the agent lists them.
 
-## Writing your own
-
-A skill is one folder, one `SKILL.md`, and frontmatter with two required keys:
-
-```markdown
----
-name: my-skill
-description: >
-  What the skill does, then the phrases and situations that should trigger it.
----
-
-# My Skill
-
-Instructions for the agent, in Markdown.
-```
-
-`name` must match the folder name and use `lowercase-hyphenated` words. `description` is the only part an agent reads before deciding whether to load the skill, so it carries the entire triggering burden — say what the skill does *and* name the situations and phrasings that should pull it in. Keep it under 1024 characters.
-
-Then write the body for an agent, not for a human reader: concrete steps, real commands, explicit rules about what not to do. Skip the motivational framing and the background explanation. Anything the agent cannot act on is context it has to carry for nothing.
 
 ## Validation
 
